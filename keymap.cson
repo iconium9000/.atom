@@ -1,0 +1,50 @@
+'atom-workspace atom-text-editor':
+  # Unset editor keybindings (conflict with multi-cursor-plus)
+  'alt-left':        'unset!'
+  'alt-right':       'unset!'
+  'alt-shift-left':  'unset!'
+  'alt-shift-right': 'unset!'
+
+'atom-text-editor':
+  'f6': 'bookmarks:jump-to-next-bookmark'
+  'ctrl-f6': 'bookmarks:jump-to-previous-bookmark'
+
+'.platform-linux atom-text-editor':
+  'f5': 'bookmarks:toggle-bookmark'
+
+'atom-workspace atom-text-editor:not([mini])':
+  # Unset editor keybindings (conflict with multi-cursor-plus)
+  'alt-shift-up': 'unset!'
+  'alt-shift-down': 'unset!'
+
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'f4': 'find-and-replace:replace-next'
+
+'.platform-win32 .find-and-replace, .platform-linux .find-and-replace':
+  'alt-r': 'find-and-replace:toggle-regex-option'
+'.platform-win32 .project-find, .platform-linux .project-find':
+  'alt-r': 'project-find:toggle-regex-option'
+
+'atom-workspace':
+  # Key bindings for multi-cursor-plus
+  'alt-x':                'multi-cursor-plus:mark'
+  'alt-up':               'multi-cursor-plus:move-up'
+  'alt-down':             'multi-cursor-plus:move-down'
+  'alt-left':             'multi-cursor-plus:move-left'
+  'alt-right':            'multi-cursor-plus:move-right'
+  'ctrl-alt-left':        'multi-cursor-plus:move-to-beginning-of-word'
+  'ctrl-alt-right':       'multi-cursor-plus:move-to-end-of-word'
+  'alt-home':             'multi-cursor-plus:move-to-first-character-of-line'
+  'alt-end':              'multi-cursor-plus:move-to-end-of-line'
+  'ctrl-alt-home':        'multi-cursor-plus:move-to-top'
+  'ctrl-alt-end':         'multi-cursor-plus:move-to-bottom'
+  'alt-shift-up':         'multi-cursor-plus:select-up'
+  'alt-shift-down':       'multi-cursor-plus:select-down'
+  'alt-shift-left':       'multi-cursor-plus:select-left'
+  'alt-shift-right':      'multi-cursor-plus:select-right'
+  'ctrl-alt-shift-left':  'multi-cursor-plus:select-to-beginning-of-word'
+  'ctrl-alt-shift-right': 'multi-cursor-plus:select-to-end-of-word'
+  'alt-shift-home':       'multi-cursor-plus:select-to-first-character-of-line'
+  'alt-shift-end':        'multi-cursor-plus:select-to-end-of-line'
+  'ctrl-alt-shift-home':  'multi-cursor-plus:select-to-top'
+  'ctrl-alt-shift-end':   'multi-cursor-plus:select-to-bottom'

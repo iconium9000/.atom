@@ -1,0 +1,97 @@
+{
+  "_from": "https://www.atom.io/api/packages/clock/versions/1.9.1/tarball",
+  "_id": "clock@1.9.1",
+  "_inBundle": false,
+  "_integrity": "sha512-fQ6NSgh7kfYUi+2ep7wWcENO8t3Hq3zjqkcF0xU/wHAd8lESjj0DwIbL6EFHqpN9MiBQyjvM07Iv6GyPpYzVrA==",
+  "_location": "/clock",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/clock/versions/1.9.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/clock/versions/1.9.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/clock/versions/1.9.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/clock/versions/1.9.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/clock/versions/1.9.1/tarball",
+  "_shasum": "b2b9efd691cfcdc9bb8de71ea1a4da33a1524abb",
+  "_spec": "https://www.atom.io/api/packages/clock/versions/1.9.1/tarball",
+  "_where": "/tmp/apm-install-dir-11995-6648-vea72o.q1zf",
+  "bugs": {
+    "url": "https://github.com/tong/atom-clock/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "icon": {
+      "title": "Show icon",
+      "type": "boolean",
+      "description": "Show a clock icon",
+      "default": false,
+      "order": 1
+    },
+    "seconds": {
+      "title": "Show seconds",
+      "type": "boolean",
+      "description": "Toggle show seconds",
+      "default": false,
+      "order": 2
+    },
+    "format": {
+      "title": "24-hour format",
+      "type": "boolean",
+      "description": "Toggle 12/24 time display format",
+      "default": true,
+      "order": 3
+    },
+    "am_pm_suffix": {
+      "title": "AM/PM suffix",
+      "type": "boolean",
+      "description": "Show AM/PM suffix when 12-hour format is selected",
+      "default": false,
+      "order": 4
+    }
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Digital clock for the status bar",
+  "engines": {
+    "atom": ">=1.6.0 <2.0.0"
+  },
+  "homepage": "https://github.com/tong/atom-clock#readme",
+  "keywords": [
+    "clock",
+    "time",
+    "statusbar"
+  ],
+  "license": "MIT",
+  "main": "./lib/clock",
+  "name": "clock",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tong/atom-clock.git"
+  },
+  "version": "1.9.1",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".js": [
+        "lib/clock.js"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
