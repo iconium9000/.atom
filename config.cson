@@ -5,8 +5,7 @@
     icon: true
   core:
     telemetryConsent: "no"
-  editor:
-    fontSize: 15
+  editor: {}
   "exception-reporting":
     userId: "5b2fd188-d2d3-4cc5-9f22-3d4d0a738834"
   welcome:
